@@ -1,4 +1,4 @@
-const db = require('../services/db');
+ const db = require('../services/db');
 
 async function getResult(key){
     
@@ -12,7 +12,7 @@ async function getResult(key){
 }
    
 function login(uname,pswd){
-       if(uname==="Batman" && pswd=="Iambatman")     
+       if(uname==="Bat" && pswd=="Iambatman")     
           {
              console.log(uname)
 
